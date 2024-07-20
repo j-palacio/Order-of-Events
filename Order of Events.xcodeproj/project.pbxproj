@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		CF8E27422C49EE96008DE355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8E27412C49EE96008DE355 /* AppDelegate.swift */; };
 		CF8E27442C49EE96008DE355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8E27432C49EE96008DE355 /* SceneDelegate.swift */; };
-		CF8E27462C49EE96008DE355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8E27452C49EE96008DE355 /* ViewController.swift */; };
+		CF8E27462C49EE96008DE355 /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8E27452C49EE96008DE355 /* firstVC.swift */; };
 		CF8E27492C49EE96008DE355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8E27472C49EE96008DE355 /* Main.storyboard */; };
 		CF8E274B2C49EE97008DE355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8E274A2C49EE97008DE355 /* Assets.xcassets */; };
 		CF8E274E2C49EE97008DE355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8E274C2C49EE97008DE355 /* LaunchScreen.storyboard */; };
+		CF8E275A2C49F0B1008DE355 /* MiddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8E27592C49F0B1008DE355 /* MiddleVC.swift */; };
+		CF8E275C2C49F0CB008DE355 /* LastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8E275B2C49F0CB008DE355 /* LastVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF8E273E2C49EE96008DE355 /* Order of Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Order of Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8E27412C49EE96008DE355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8E27432C49EE96008DE355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF8E27452C49EE96008DE355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF8E27452C49EE96008DE355 /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
 		CF8E27482C49EE96008DE355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF8E274A2C49EE97008DE355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8E274D2C49EE97008DE355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8E274F2C49EE97008DE355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8E27592C49F0B1008DE355 /* MiddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleVC.swift; sourceTree = "<group>"; };
+		CF8E275B2C49F0CB008DE355 /* LastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				CF8E27412C49EE96008DE355 /* AppDelegate.swift */,
 				CF8E27432C49EE96008DE355 /* SceneDelegate.swift */,
-				CF8E27452C49EE96008DE355 /* ViewController.swift */,
+				CF8E27452C49EE96008DE355 /* firstVC.swift */,
+				CF8E27592C49F0B1008DE355 /* MiddleVC.swift */,
+				CF8E275B2C49F0CB008DE355 /* LastVC.swift */,
 				CF8E27472C49EE96008DE355 /* Main.storyboard */,
 				CF8E274A2C49EE97008DE355 /* Assets.xcassets */,
 				CF8E274C2C49EE97008DE355 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8E27462C49EE96008DE355 /* ViewController.swift in Sources */,
+				CF8E275C2C49F0CB008DE355 /* LastVC.swift in Sources */,
+				CF8E27462C49EE96008DE355 /* firstVC.swift in Sources */,
+				CF8E275A2C49F0B1008DE355 /* MiddleVC.swift in Sources */,
 				CF8E27422C49EE96008DE355 /* AppDelegate.swift in Sources */,
 				CF8E27442C49EE96008DE355 /* SceneDelegate.swift in Sources */,
 			);
